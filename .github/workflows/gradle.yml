@@ -12,6 +12,9 @@ jobs:
         uses: actions/setup-java@v1
         with:
           java-version: 17
+      - name: Allow Full Permissions for Gradle
+        run: |
+          sudo chmod +x gradlew
       - name: Build Artifacts
         run: ./gradlew build
       - name: Extract Current Branch Name
