@@ -12,6 +12,16 @@ jobs:
         uses: actions/setup-java@v1
         with:
           java-version: 17
+      - name: Cache/Uncache Uwucraft
+        uses: actions/cache@v2
+        with:
+          path: |
+            ~/.gradle/caches
+            ~/.gradle/loom-cache
+            ~/.gradle/wrapper
+          key: ${{ runner.os }}-gradle-${{ hashFiles('**/gradle-wrapper.properties') }}
+          restore-keys: |
+            ${{ runner.os }}-gradle-
       - name: Validate Gradle wrapper
         uses: gradle/wrapper-validation-action@v1
       - name: Allow Full Permissions for Gradle
