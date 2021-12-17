@@ -16,7 +16,8 @@
   "entrypoints": {
     "client": [
       "uwucraft.client.uwucraftClient"
-    ]
+    ],
+    "modmenu": [ "uwucraft.client.uwucraftClient.intergration.ModMenuIntergration" ]
   },
   "mixins": [
     "uwucraft.mixins.json"
@@ -26,4 +27,5 @@
     "fabric": "*",
     "minecraft": "1.17.1"
   }
+  
 }
