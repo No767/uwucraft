@@ -8,16 +8,16 @@
     "No767"
   ],
   "contact": {
-    "repo": "https://github.com/No767/uwucraft"
+    "sources": "https://github.com/No767/uwucraft",
+    "issues": "https://github.com/No767/uwucraft/issues",
   },
-  "license": "LGPL-3.0",
-  "icon": "assets/uwucraft/icon.png",
+  "license": "GPL-3.0",
+  "icon": "assets/uwucraft/uwucraft.png",
   "environment": "*",
   "entrypoints": {
     "client": [
       "uwucraft.client.uwucraftClient"
     ],
-    "modmenu": [ "uwucraft.client.uwucraftClient.intergration.ModMenuIntergration" ]
   },
   "mixins": [
     "uwucraft.mixins.json"
