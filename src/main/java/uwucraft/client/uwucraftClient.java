@@ -21,9 +21,4 @@ public class uwucraftClient implements ClientModInitializer {
         Registry.register(Registry.ITEM, new Identifier("uwuitem", "fabric_item"), digydigyhole);
     }
 
-    @Override
-    public void appendTooltip(ItemStack itemStack, World world, List<Text> tooltip, TooltipContext tooltipContext) {
-        tooltip.add(new LiteralText("uwu").formmatted(Formatting.PINK));
-        
-    }
 }
