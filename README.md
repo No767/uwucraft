@@ -12,7 +12,7 @@ A mod that adds uwu-related and pastel-like content
 
 # Installing (End users)
 
-Uwucraft is a **Fabirc** mod, not a Forge mod. Only Fabric 1.17.1 is supported as of now, but later down the road I do plan on making a 1.18.x version. Feel free to port this mod to Forge if you wish to do so. Note that you will also need Fabric API installed. To install it, simply drag and drop this into your mods folder
+Uwucraft is a **Fabric** mod, not a Forge mod. Only Fabric 1.17.1 is supported as of now, but later down the road I do plan on making a 1.18.x version. Feel free to port this mod to Forge if you wish to do so. Note that you will also need Fabric API installed. To install it, simply drag and drop this into your mods folder
 
 Stable releases are not out as of now, plus the mod hasn't really gotten started yet. So if you wish to install it, create a GitHub account (or login to your GitHub account if you already have one), find the actions tab, and download the artifacts from the latest commit.
 
